@@ -1,2 +1,2 @@
 # pan_tilt_prj
-simple project about pan&amp;tilt
+scripts used to control a pan & tilt unit made with two dynamixels actuators with a xbox 360 joystick
