@@ -2,6 +2,7 @@
 
 """
 Script to control a Pan and Tilt unit, consisting in two Dynamixel MX-28, using a Joystick with ROS Kinetic
+Written by Leandro Nozela
 """
 
 import rospy
