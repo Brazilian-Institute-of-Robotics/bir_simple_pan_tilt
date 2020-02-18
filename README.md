@@ -1,2 +1,2 @@
-# pan_tilt_prj
+# simple_pan_tilt
 simple project about pan&amp;tilt
