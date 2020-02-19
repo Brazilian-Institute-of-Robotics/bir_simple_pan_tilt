@@ -1,0 +1,13 @@
+<launch>
+    <include file="$(find pan_tilt_pkg)/launch/controller_manager.launch"/>
+    <include file="$(find pan_tilt_pkg)/launch/start_meta_controller.launch"/>
+    <param name="uvc_camera/device" type="string" value="/dev/video1"/>
+    <node name="uvc_camera"
+          pkg="uvc_camera"
+          type="uvc_camera_node"
+          output="screen"/>
+      <node name="pan_tilt_node"
+          pkg="pan_tilt_pkg"
+          type="pan_tilt_camera"
+          output="screen" />
+</launch>
